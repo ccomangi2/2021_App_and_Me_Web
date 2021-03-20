@@ -3,8 +3,7 @@
 include './db_conn.php';
 
 $username = $_POST['name '];
-$studemt_id = $_POST['studemt_id '];
-$five = $_POST[''];
+$title = $_POST['title'];
 $content = $_POST['content'];
 
 $sql="insert into qna(username,title,content)values('$username','$title','$content')";
