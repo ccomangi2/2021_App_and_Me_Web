@@ -101,6 +101,7 @@ input[type=text]
   border : 1.5px solid #929191;
   margin-left: 20%;
   margin-bottom: 5%;
+  position: relative;
 }
 
 input[type=text]:hover
@@ -111,34 +112,41 @@ input[type=text]:hover
   padding-right: 100%;
   border-radius : 10px;
   border : 1.5px solid #FF6E8C;
+  position: relative;
 }
 
 input[name=name]{
   padding-top: 10%;
   padding-right: 20%;
+  position: relative;
 }
 
 input[name=name]:hover{
   padding-top: 10%;
   padding-right: 20%;
+  position: relative;
 }
 
 input[name=head]{
   padding-top: 10%;
   padding-right: 20%;
+  position: relative;
 }
 
 input[name=head]:hover{
   padding-top: 10%;
   padding-right: 20%;
+  position: relative;
 }
 
 input[name=content]{
   padding-top: 50%;
   padding-right: 100%;
+  position: relative;
 }
 
 input[name=content]:hover{
   padding-top: 50%;
   padding-right: 100%;
+  position: relative;
 }
