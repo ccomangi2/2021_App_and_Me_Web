@@ -2,15 +2,15 @@
 
 include './db_conn.php';
 
-$username = $_POST['name '];
-$studemt_id = $_POST['studemt_id '];
-$five = $_POST[''];
-$content = $_POST['content'];
+$name = $_POST['name'];
+$student_id = $_POST['student_id'];
+$five = $_POST['five'];
+$motive = $_POST['motive'];
 
-$sql="insert into qna(username,title,content)values('$username','$title','$content')";
+$sql="insert into submit(name,student_id,five,motive)values('$name','$student_id','$five','$motive')";
 mysqli_query($conn,$sql);
 mysqli_close($conn);
 
-echo("<script>location.href='size.php';</script>"); 
+echo("<script>location.href='index.php';</script>"); 
 ?>
 
