@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+* {padding: 0px; margin: 0px;}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #F8F8F8;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+header {
+  height: 10%;
+  background-color: white;
+  box-shadow: 0px 0px 20px #D5D8E0;
+}
+header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
+
+header img {
+  height: 20px;
+  vertical-align:middle;
+  margin-left: 19.5%;
+}
+
+header span {
+  vertical-align:middle;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #393939;
+}
+
+.margin{
+  margin-top: 1%;
+  margin-left: 18%;
+  margin-right: 22%;
+}
+
+.box1{
+  width: 50%;
+  text-align: center;
+  padding: 5%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  position: relative;
+}
+
+.box2{
+  background-color: #ffffff;
+  width: 35%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 7%;
+  float: right;
+  position: relative; 
+  box-shadow: 10px 5px 50px 30px #ebe9e9;
+}
+
+.about{
+  font-weight: 700;
+  font-size: 24pt;
+  line-height: 22mm;
+}
+
+.title_contents{
+  font-weight: 400;  
+  font-size: 17pt;
+  color: #494949;
+  line-height: 10mm;
+}
+
+.title{
+  font-weight: 400;
+  font-size: 12pt;
+  color: #6d6b6b;
+}
+
+.subtitle{
+  font-weight: 700;  
+  font-size: 18pt;
+  line-height: 10mm;
+}
+
+.contents{
+  font-weight: 400;
+  color: #494949;
+  line-height: 7mm;
+}
