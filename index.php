@@ -9,11 +9,11 @@ include './db_conn.php';
 <link rel="stylesheet" href="css/main.css">
 <body>
 	<header>
-		<img src="img/appandme_web_logo.png" alt="app&me">
-		<span style="margin-left: 640px; color: #FF6384;">ABOUT</span>
-		<span style="margin-left: 12px;">부원소개</span>
-		<span style="margin-left: 12px;">지원하기</span>
-		<span style="margin-left: 12px;">Q&A</span>
+	<img src="img/appandme_web_logo.png" alt="app&me">
+		<span style="margin-left: 40%; color: #FF6384;" onclick="location.href='about.html'">ABOUT</span>
+		<span style="margin-left: 1%;" onclick="location.href='members.html'">부원소개</span>
+		<span style="margin-left: 1%;" onclick="location.href='submit.php'">지원하기</span>
+		<span style="margin-left: 1%;" onclick="location.href='qna.php'">Q&A</span>
 	</header>
 	<div class="main">
 		<img src="img/appandme_web_background.png">
