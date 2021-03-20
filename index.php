@@ -13,7 +13,7 @@ include './db_conn.php';
 		<span style="margin-left: 40%; color: #FF6384;" onclick="location.href='about.html'">ABOUT</span>
 		<span style="margin-left: 1%;" onclick="location.href='members.html'">부원소개</span>
 		<span style="margin-left: 1%;" onclick="location.href='submit.php'">지원하기</span>
-		<span style="margin-left: 1%;" onclick="location.href='qna.php'">Q&A</span>
+		<span style="margin-left: 1%;" onclick="location.href='qna.html'">Q&A</span>
 	</header>
 	<div class="main">
 		<img src="img/appandme_web_background.png">
