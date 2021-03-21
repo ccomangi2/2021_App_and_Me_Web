@@ -1,5 +1,4 @@
-@import "https://fonts.google.com/specimen/Noto+Sans?fbclid=IwAR1rho8MwXOMwknTk84vc0Y-y2PKP0Q5ce5guoQWm1to61Yy9tdqqUuHbyQ";
-@import "https://fonts.google.com/specimen/Raleway?fbclid=IwAR2FisFUlxPR3gvJyhRkk598M_lIJfT83CmsqqHDtQlOXF7QDELfDKiqFaI";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
 * {padding: 0px; margin: 0px;}
 	
 	body {
@@ -12,22 +11,23 @@
         height: 100%;
       }
 	header {
-		height: 10%;
+		height: 8%;
 		background-color: white;
 		box-shadow: 0px 0px 20px #D5D8E0;
 	}
 	header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
 	header img {
-		height: 20px;
+		height: 25%;
 		vertical-align:middle;
 		margin-left: 19.5%;
 	}
 
 	header span {
 		vertical-align:middle;
-		font-size: 0.9em;
+		font-size: 0.85em;
 		font-weight: bold;
 		color: #393939;
+		font-family: 'Noto Sans KR', sans-serif;
 	}
 
 	.main {
@@ -54,6 +54,15 @@
 	.title p {
 		font-size: 2.3em;
 		color: white;
+		font-family: 'Noto Sans KR', sans-serif;
+	}
+
+	.title hr {
+		border-top: 0px;
+		width: 3%;
+		height: 2px;
+		background-color: white;
+		margin-top: 4%;
 	}
 
 	.title .apply {
@@ -69,4 +78,5 @@
 		line-height: 47px;
 		color: white;
 		font-weight: bold;
+		font-family: 'Noto Sans KR', sans-serif;
 	}
