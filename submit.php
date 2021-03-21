@@ -29,9 +29,15 @@
         <form class="login-form" action="qnaaction.php" method="post">
           <table width="95%" class="list-table">
             <tr class="content">
-              <td>학번 이름</td>
+              <td>학번</td>
+              <td><input type="text" name="student_id" size="50"
+                  style="float:left; width: 33%; height:50px" placeholder="3100" required>
+              </td>
+              </tr>
+              <tr class="content">
+              <td>이름</td>
               <td><input type="text" name="name" size="50"
-                  style="float:left; width: 33%; height:50px" placeholder="3100 김미림" required>
+                  style="float:left; width: 33%; height:50px" placeholder="김미림" required>
               </td>
             </tr>
             <tr class="content">
@@ -48,7 +54,7 @@
             <tr class="content">
               <td>지원동기</td>
               <td colspan="2">
-                <textarea id="test" name="content" onkeyup="len_chk()" style="width:92%; float:left;"
+                <textarea  id="test" name="content" onkeyup="len_chk()" style="width:92%; float:left;"
                   rows="6" placeholder="내용을 입력해주세요. (200자 이내)" required></textarea>
                   <div id="test_cnt">(0 / 200)</div>
               </td>
@@ -73,7 +79,6 @@
             frm2.focus();
         }
       }
-
       //글자수 카운트
       $(document).ready(function() {
         $('#test').on('keyup', function() {
