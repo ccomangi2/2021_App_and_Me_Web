@@ -47,8 +47,9 @@
             <tr class="content">
               <td>내용</td>
               <td colspan="2">
-                <textarea name="content" onkeyup="len_chk()" style="width:92%; float:left; margin-left: 5%;"
+                <textarea id="test" name="content" onkeyup="len_chk()" style="width:92%; float:left; margin-left: 5%;"
                   rows="6" placeholder="내용을 입력해주세요. (200자 이내)" required></textarea>
+                  <div id="test_cnt">(0 / 200)</div>
               </td>
             </tr>
           </table>
@@ -72,6 +73,17 @@
           frm2.focus();
       }
     }
+    //글자수 카운트
+    $(document).ready(function() {
+        $('#test').on('keyup', function() {
+            $('#test_cnt').html("("+$(this).val().length+" / 200)");
+ 
+            if($(this).val().length > 200) {
+                $(this).val($(this).val().substring(0, 200));
+                $('#test_cnt').html("(200 / 200)");
+            }
+        });
+    });
   </script>
 </body>
 
