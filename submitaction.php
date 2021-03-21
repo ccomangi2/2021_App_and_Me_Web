@@ -11,6 +11,7 @@ $sql="insert into submit(name,student_id,five,motive)values('$name','$student_id
 mysqli_query($conn,$sql);
 mysqli_close($conn);
 
-echo("<script>location.href='index.php';</script>"); 
+echo("<script>location.href='index.php'; alert('지원서 제출이 완료되었습니다 :)');</script>"); 
+
 ?>
 
