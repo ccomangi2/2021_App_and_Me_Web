@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/qna_write.css">
 </head>
 
-<body style="overflow-y:hidden">
+<body>
   <header>
     <img src="img/appandme_web_logo.png" alt="app&me" onclick="location.href='main.html'">
     <span style="margin-left: 40%;" onclick="location.href='about.html'">ABOUT</span>
