@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <title>App & Me</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
 <link rel="stylesheet" href="css/submit.css">
@@ -47,8 +48,9 @@
             <tr class="content">
               <td>지원동기</td>
               <td colspan="2">
-                <textarea name="content" onkeyup="len_chk()" style="width:92%; float:left;"
+                <textarea id="test" name="content" onkeyup="len_chk()" style="width:92%; float:left;"
                   rows="6" placeholder="내용을 입력해주세요. (200자 이내)" required></textarea>
+                  <div id="test_cnt">(0 / 200)</div>
               </td>
             </tr>
           </table>
@@ -71,6 +73,18 @@
             frm2.focus();
         }
       }
+
+      //글자수 카운트
+      $(document).ready(function() {
+        $('#test').on('keyup', function() {
+            $('#test_cnt').html("("+$(this).val().length+" / 200)");
+ 
+            if($(this).val().length > 200) {
+                $(this).val($(this).val().substring(0, 200));
+                $('#test_cnt').html("(200 / 200)");
+            }
+        });
+    });
     </script>
 </body>
 
