@@ -1,16 +1,15 @@
-<?php
-include './db_conn.php';
-?>
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>App & Me</title>
 </head>
 <link rel="stylesheet" href="css/main.css">
-<body>
+
+<body style="overflow-y:hidden">
 	<header>
-	<img src="img/appandme_web_logo.png" alt="app&me">
+		<img src="img/appandme_web_logo.png" alt="app&me" onclick="location.href='main.html'">
 		<span style="margin-left: 40%; color: #FF6384;" onclick="location.href='about.html'">ABOUT</span>
 		<span style="margin-left: 1%;" onclick="location.href='members_8th.html'">부원소개</span>
 		<span style="margin-left: 1%;" onclick="location.href='submit.php'">지원하기</span>
@@ -20,14 +19,18 @@ include './db_conn.php';
 		<img src="img/appandme_web_background.png">
 	</div>
 	<center>
-	<div class="title">
-		<p style="font-weight: bold;">USER에서 MAKER로 거듭나고자 하는</p>
-		<p style="font-weight: bold;">당신을 위한 최고의 선택, APP&ME</p>
-		<p style="font-size: 2em; margin-top: 20px;">ㅡ</p>
-		<p style="font-size: 1.2em; margin-top: 20px;">앱앤미와 관련되어 궁금한 점이 있다면</p>
-		<p style="font-size: 1.2em; margin-top: 3px;">질문하고 궁금증을 풀어보세요.</p>
-		<p style="font-size: 1.3em; margin-top: 15px;">03.21-04.02</p>
-	</div>
+		<div class="title">
+			<p style="font-weight: bold;">USER에서 MAKER로 거듭나고자 하는</p>
+			<p style="font-weight: bold; margin-top: 1%;">당신을 위한 최고의 선택, APP&ME</p>
+			<hr>
+			<p style="font-size: 1.15em; margin-top: 4%;">앱앤미와 관련되어 궁금한 점이 있다면</p>
+			<p style="font-size: 1.15em; margin-top: 0.3%;">질문하고 궁금증을 풀어보세요.</p>
+			<p style="font-size: 1.25em; margin-top: 1.5%;">03.21-04.02</p>
+			<div class="apply">
+				<span onclick="location.href='submit.php'">지원하기</span>
+			</div>
+		</div>
 	</center>
 </body>
+
 </html>
