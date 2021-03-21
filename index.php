@@ -4,8 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>App & Me</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/main.css">
 </head>
-<link rel="stylesheet" href="css/main.css">
 
 <body style="overflow-y:hidden">
 	<header>

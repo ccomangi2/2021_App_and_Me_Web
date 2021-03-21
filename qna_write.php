@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>App & Me</title>
-</head>
+	<link rel="shortcut icon" href="img/favicon.ico">
 <link rel="stylesheet" href="css/qna_write.css">
+</head>
 
 <body style="overflow-y:hidden">
   <header>
