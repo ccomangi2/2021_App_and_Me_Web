@@ -4,6 +4,7 @@ include './db_conn.php';
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>App & Me</title>
 </head>
 <link rel="stylesheet" href="css/main.css">
@@ -11,9 +12,9 @@ include './db_conn.php';
 	<header>
 	<img src="img/appandme_web_logo.png" alt="app&me">
 		<span style="margin-left: 40%; color: #FF6384;" onclick="location.href='about.html'">ABOUT</span>
-		<span style="margin-left: 1%;" onclick="location.href='members.html'">부원소개</span>
+		<span style="margin-left: 1%;" onclick="location.href='members_8th.html'">부원소개</span>
 		<span style="margin-left: 1%;" onclick="location.href='submit.php'">지원하기</span>
-		<span style="margin-left: 1%;" onclick="location.href='qna.html'">Q&A</span>
+		<span style="margin-left: 1%;" onclick="location.href='qna.php'">Q&A</span>
 	</header>
 	<div class="main">
 		<img src="img/appandme_web_background.png">

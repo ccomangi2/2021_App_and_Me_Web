@@ -1,39 +1,30 @@
 <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-  
-          <h4>qna 등록</h4>
+<html>
 
-          <form class="login-form" action="qnaaction.php" method="post">
-            <table class="table table-boardered">
-              <tr>
-                <td>이름</td>
-                <td><input type="text" class="form-control" name="name" style="width:200px;display:inline;"><td>
-              </tr>
+<head>
+  <meta charset="UTF-8">
+  <title>App & Me</title>
+</head>
+<link rel="stylesheet" href="css/qna.css">
 
-              <tr>
-                <td>제목</td>
-                <td><input type="text" class="form-control" name="title" style="width:200px;display:inline;"></td>      
-              </tr>    
+<body style="overflow-y:hidden">
+  <header>
+    <img src="img/appandme_web_logo.png" alt="app&me" onclick="location.href='main.html'">
+    <span style="margin-left: 40%;" onclick="location.href='about.html'">ABOUT</span>
+    <span style="margin-left: 1%;" onclick="location.href='members_8th.html'">부원소개</span>
+    <span style="margin-left: 1%;" onclick="location.href='submit.php'">지원하기</span>
+    <span style="margin-left: 1%; color: #FF6384;" onclick="location.href='qna.php'">Q&A</span>
+  </header>
+</body>
+<div class="margin">
+  <div class="title">Q&A</div>
+  <div class="content">앱앤미와 관련되어 궁금한 점이 있다면<br>
+    질문하고 궁금증을 풀어보세요.<br><br></div>
+</div>
+<center>
+  <hr width="62%">
+</center>
+<!-- 내용 가져오기 -->
+<button onclick="location.href='qna_write.php'">WRITE</button>
 
-              <tr>
-                <td>내용</td>
-                <td><input type="text" class="form-control" name="content" style="width:200px;display:inline;"></td>       
-              </tr>
-              
-             <tr>
-               <td>
-                <input type="submit" class="btn btn-primary btn-lg">
-              </td>
-              </tr>
-
-            </table>
-          </form>
-  </body>
 </html>
