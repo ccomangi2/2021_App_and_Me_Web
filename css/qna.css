@@ -44,6 +44,44 @@ button{
   top:30%; left:73%;
 }
 
+table {
+  text-align: center;
+  position: relative;
+  border: none;
+}
+
+th{
+  color:#B3B3B3;
+  padding: 10px;
+}
+
+.no{
+  width: 8%; 
+}
+
+.head{
+  width: 40%; 
+}
+
+.name{
+  width: 15%; 
+}
+
+.date{
+  width: 15%; 
+}
+
+td {
+  color:#5D5D5D;
+  padding: 15px;
+}
+
+.box{
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+
 .margin{
   margin-top: 3%;
   margin-left: 20%;
@@ -53,12 +91,17 @@ button{
 .title{
   font-weight: 700;
   font-size: 28pt;
-  line-height: 22mm;
+  line-height: 25mm;
 }
 
 .content{
-  font-weight: 300;  
+  font-weight: 500;  
   font-size: 15pt;
   color: #494949;
   line-height: 10mm;
+}
+
+.group{
+  bottom: 2%; left: 72%;
+  position: relative;
 }
