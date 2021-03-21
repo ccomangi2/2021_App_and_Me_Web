@@ -20,6 +20,7 @@
 		<img src="img/appandme_web_background.png">
 	</div>
 	<center>
+
 		<div class="title">
 			<p style="font-weight: bold;">USER에서 MAKER로 거듭나고자 하는</p>
 			<p style="font-weight: bold; margin-top: 1%;">당신을 위한 최고의 선택, APP&ME</p>
@@ -31,6 +32,7 @@
 				<span onclick="location.href='submit.php'">지원하기</span>
 			</div>
 		</div>
+
 	</center>
 </body>
 
