@@ -19,6 +19,7 @@ header img {
 	height: 25%;
 	vertical-align:middle;
 	margin-left: 19.5%;
+	margin-right: 40%;
 }
 
 header span {
@@ -26,7 +27,6 @@ header span {
 	font-size: 0.85em;
 	font-weight: bold;
 	color: #393939;
-	font-family: 'Noto Sans KR', sans-serif;
 }
 
 .title {
