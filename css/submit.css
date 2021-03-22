@@ -18,6 +18,7 @@ header img {
   height: 25%;
   vertical-align:middle;
   margin-left: 19.5%;
+  margin-right: 40%;
 }
 
 header span {
@@ -25,6 +26,7 @@ header span {
   font-size: 0.9em;
   font-weight: bold;
   color: #393939;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 button{
@@ -42,6 +44,7 @@ button{
 
   position: relative;
   top:30%; left:73%;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .list-table tbody td {
@@ -59,14 +62,23 @@ button{
 
 .title{
   font-weight: 700;
-  font-size: 28pt;
+  font-size: 2.5em;
   line-height: 22mm;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#title_hr {
+  width: 107%;
+  height: 3px;
+  border-bottom: 0px;
+  border-top: 0px;
+  background-color: #FF6384;
 }
 
 .apply {
 	width: 26%;
 	height: 50px;
-	font-size: 14pt;
+	font-size: 1.5em;
 	font-weight: 700;
   color: #230A3F;
 	border: solid 3.5px #230A3F;
@@ -75,7 +87,9 @@ button{
   padding-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-	margin-top: 2%;
+	margin-top: 5%;
+  margin-bottom: 10%;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .box{
@@ -94,7 +108,24 @@ button{
 .content{
   color:#FF6E8C;
   font-weight: 700;
-  font-size: 16pt;
+  font-size: 1.5em;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#hakbun {
+  float:left; width: 33%; height:50px
+}
+
+#name {
+  float:left; width: 33%; height:50px
+}
+
+#fiveme {
+  float:left; width: 33%; height:50px
+}
+
+#test {
+  width:92%; float:left; margin-right: 5%;
 }
 
 table {
@@ -108,6 +139,8 @@ textarea {
   border: 1px solid gray;
   padding-left: 15px;
   font-size: 15px;
+  resize: none;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 textarea{
@@ -118,6 +151,7 @@ textarea{
   font-weight: 500;
   border-radius : 10px;
   border : 1.5px solid #929191;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 textarea:hover{
@@ -125,6 +159,7 @@ textarea:hover{
   font-weight: 500;
   border-radius : 10px;
   border : 1.5px solid #FF6E8C;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 input[type=text]
@@ -133,6 +168,7 @@ input[type=text]
   font-weight: 700;
   border-radius : 10px;
   border : 1.5px solid #929191;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 input[type=text]:hover
@@ -141,8 +177,201 @@ input[type=text]:hover
   font-weight: 700;
   border-radius : 10px;
   border : 1.5px solid #FF6E8C;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 input[type=text], textarea:focus{
   outline: none;
+}
+
+@media all and (min-width:768px) and (max-width:1080px) {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+* {padding: 0px; margin: 0px;}
+  
+  body {
+      margin: 0;
+      font-family: 'Noto Sans';
+  }
+
+  html, body {
+      width: 100%;
+      height: 100%;
+  }
+  header {
+    height: 5%;
+    background-color: white;
+    box-shadow: 0px 0px 20px #D5D8E0;
+  }
+  header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
+  header img {
+    height: 30%;
+    vertical-align:middle;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+  header span {
+    vertical-align:middle;
+    font-size: 2em;
+    font-weight: bold;
+    color: #393939;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  button{
+    background-color: #ffffff;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 2px solid #afafaf;
+
+    font-weight: bold;
+    font-size: 11pt;
+    color: #393939;
+    letter-spacing: 0.25mm;
+
+    position: relative;
+    top:30%; left:73%;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .list-table tbody td {
+    text-align: left;
+    /* border-bottom: 1px solid gray; */
+    height: 40px;
+  }
+
+  .margin{
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10%;
+    clear: both;
+  }
+
+  .title{
+    font-weight: 700;
+    font-size: 5em;
+    line-height: 22mm;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  #title_hr {
+    width: 105%;
+    margin-top: 7%;
+    height: 4px;
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color: #FF6384;
+  }
+
+  .apply {
+    width: 80%;
+    height: 130px;
+    font-size:3em;
+    font-weight: 700;
+    color: #230A3F;
+    border: solid 3.5px #230A3F;
+    border-radius: 100px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .box{
+    background-color: #ffffff;
+    width: 94%;
+    text-align: center;
+    box-align: center;
+    border-radius: 15px;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    padding-left: 8%;
+    padding-right: 5%;
+    box-shadow: 6px 3px 50px 15px #dadada;
+  }
+
+  .content{
+    color:#FF6E8C;
+    font-size: 2.5em;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  #hakbun {
+    float:left; width: 92%; height:90px; font-size: 0.8em; margin-left: 5%;
+  }
+
+  #name {
+    float:left; width: 92%; height:90px; font-size: 0.8em; margin-left: 5%;
+  }
+
+  #fiveme {
+    float:left; width: 92%; height:180px; font-size: 0.8em; margin-left: 5%;
+  }
+
+  #test {
+    width:92%; float:left; margin-right: 5%; font-size: 0.8em;  margin-left: 5%;
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+  }
+
+  input,
+  textarea {
+    border-radius: 9px;
+    border: 1px solid gray;
+    padding-left: 15px;
+    font-size: 15px;
+    resize: none;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  textarea{
+    padding-top: 15px;
+    color:#494949;
+    
+    font-size: 13pt;
+    font-weight: 500;
+    border-radius : 10px;
+    border : 1.5px solid #929191;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  textarea:hover{
+    font-size: 13pt;
+    font-weight: 500;
+    border-radius : 10px;
+    border : 1.5px solid #FF6E8C;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  input[type=text]
+  {
+    font-size: 13pt;
+    font-weight: 700;
+    border-radius : 10px;
+    border : 1.5px solid #929191;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  input[type=text]:hover
+  {
+    font-size: 13pt;
+    font-weight: 700;
+    border-radius : 10px;
+    border : 1.5px solid #FF6E8C;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  input[type=text], textarea:focus{
+    outline: none;
+  }
 }
