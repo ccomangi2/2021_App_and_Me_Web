@@ -86,3 +86,122 @@ header span {
   color: #494949;
   line-height: 7mm;
 }
+@media all and (min-width:768px) and (max-width:1080px) {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+* {padding: 0px; margin: 0px;}
+  
+  body {
+      margin: 0;
+      font-family: 'Noto Sans';
+  }
+
+  html, body {
+      width: 100%;
+      height: 100%;
+  }
+  header {
+    height: 5%;
+    background-color: white;
+    box-shadow: 0px 0px 20px #D5D8E0;
+  }
+  header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
+  header img {
+    height: 30%;
+    vertical-align:middle;
+    margin-left: 10%;
+    margin-right: 20%;
+  }
+
+  header span {
+    vertical-align:middle;
+    font-size: 2em;
+    font-weight: bold;
+    color: #393939;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .margin{
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+  }
+
+  .box1{
+    width: 80%;
+    left: 10%;
+    margin-top: 10%;
+    float: left;
+    text-align: center;
+  }
+
+  .box1 hr {
+     width: 20%;
+     height: 2px;
+     border-bottom: 0px;
+     border-top: 0px;
+     margin-top: 15%;
+     margin-bottom: 5%;
+     background-color: #230A3F;
+  }
+
+  .box2{
+    background-color: #ffffff;
+    width: 80%;
+    left: 6%;
+    float: left;
+    margin-top: 12%;
+    box-shadow: 10px 5px 50px 30px #ebe9e9;
+  }
+
+  .box2 hr {
+    width: 10%;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 45%;
+    background-color: #FF6E8C;
+    height: 3px;
+  }
+
+  .about{
+    font-weight: 700;
+    font-size: 7em;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .title_contents{
+    font-weight: 400;  
+    font-size: 2em;
+    color: #494949;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .title{
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 1em;
+    color: #6d6b6b;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .subtitle{
+    font-weight: 700;  
+    font-size: 3em;
+    line-height: 10mm;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
+  .contents p{
+    margin-bottom: 30%;
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 1.7em;
+    color: #494949;
+    line-height: 1.5;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+}
