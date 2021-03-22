@@ -6,8 +6,10 @@ $name = $_POST['name'];
 $student_id = $_POST['student_id'];
 $five = $_POST['five'];
 $motive = $_POST['content'];
+$phone = $_POST['phone'];
 
-$sql="insert into submit(name,student_id,five,motive)values('$name','$student_id','$five','$motive')";
+
+$sql="insert into submit(name,student_id,five,motive,phone)values('$name','$student_id','$five','$motive','$phone')";
 mysqli_query($conn,$sql);
 mysqli_close($conn);
 
