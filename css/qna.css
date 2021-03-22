@@ -7,13 +7,14 @@ html, body {
   background-color: #F8F8F8;
   font-family: 'Noto Sans KR', sans-serif;
 }
+
 header {
   height: 8%;
   background-color: white;
   box-shadow: 0px 0px 20px #D5D8E0;
 }
-header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
 
+header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
 header img {
   height: 25%;
   vertical-align:middle;
@@ -51,24 +52,18 @@ table {
 }
 
 th{
-  color:#B3B3B3;
+  /* color:#B3B3B3; */
   padding: 10px;
 }
 
-.no{
-  width: 8%; 
+#no{
+  width: 1%; 
+  color:#FF6384;
 }
 
-.head{
-  width: 40%; 
-}
-
-.name{
-  width: 15%; 
-}
-
-.date{
-  width: 15%; 
+#head{
+  width: 30%;
+  color:#444444;
 }
 
 td {
@@ -105,3 +100,9 @@ td {
   bottom: 2%; left: 72%;
   position: relative;
 }
+
+/* mobile reactive web */
+/* @media all and (min-width:768px) and (max-width:1080px) {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+  
+} */
