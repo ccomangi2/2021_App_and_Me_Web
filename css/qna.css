@@ -52,8 +52,7 @@ table {
 }
 
 th{
-  /* color:#B3B3B3; */
-  padding: 10px;
+  padding: 6px;
 }
 
 #no{
@@ -63,12 +62,12 @@ th{
 
 #head{
   width: 30%;
-  color:#444444;
+  color:#ffffff;
 }
 
 td {
   color:#5D5D5D;
-  padding: 15px;
+  padding: 10px;
 }
 
 .box{
@@ -96,9 +95,15 @@ td {
   line-height: 10mm;
 }
 
-.group{
-  bottom: 2%; left: 72%;
-  position: relative;
+#line{
+  border-bottom: 1px solid #f8b7c5;
+}
+
+span{
+  color:#FF6384;
+  font-size: 17pt;
+  font-style: italic;
+  font-weight: 700;
 }
 
 /* mobile reactive web */
