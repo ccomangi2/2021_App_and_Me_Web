@@ -205,24 +205,24 @@ input[type=text], textarea:focus{
     background-color: #F8F8F8;
     font-family: 'Noto Sans KR', sans-serif;
   }
-  
+
   header {
-    height: 8%;
+    height: 5%;
     background-color: white;
     box-shadow: 0px 0px 20px #D5D8E0;
   }
   
   header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
   header img {
-    height: 25%;
+    height: 30%;
     vertical-align:middle;
-    margin-left: 19.5%;
-    margin-right: 40%;
+    margin-left: 10%;
+    margin-right: 20%;
   }
   
   header span {
     vertical-align:middle;
-    font-size: 0.85em;
+    font-size: 2em;
     font-weight: bold;
     color: #393939;
   }
