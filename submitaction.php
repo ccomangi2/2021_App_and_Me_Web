@@ -1,5 +1,5 @@
+<meta charset="UTF-8">
 <?php
-
 include './db_conn.php';
 
 $name = $_POST['name'];
