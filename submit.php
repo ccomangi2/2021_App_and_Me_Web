@@ -9,20 +9,18 @@
 <link rel="stylesheet" href="css/submit.css">
 </head>
 
-<body style="overflow-y:hidden">
+<body>
   <header>
     <img src="img/appandme_web_logo.png" alt="app&me" onclick="location.href='main.html'">
-    <span style="margin-left: 40%;" onclick="location.href='about.html'">ABOUT</span>
+    <span onclick="location.href='about.html'">ABOUT</span>
     <span style="margin-left: 1%;" onclick="location.href='members_8th.html'">부원소개</span>
     <span style="margin-left: 1%; color: #FF6384;" onclick="location.href='submit.php'">지원하기</span>
     <span style="margin-left: 1%;" onclick="location.href='qna.php'">Q&A</span>
   </header>
   <div class="margin">
     <div class="title">지원하기</div>
+    <hr id="title_hr">
   </div>
-  <center>
-    <hr width="60%" color="#FF6384">
-  </center>
   <div class="margin">
     <center>
       <div class="box">
@@ -30,20 +28,17 @@
           <table width="95%" class="list-table">
             <tr class="content">
               <td>학번</td>
-              <td><input type="text" name="student_id" size="50"
-                  style="float:left; width: 33%; height:50px" placeholder="3100" required>
+              <td><input id="hakbun" type="text" name="student_id" size="50" placeholder="3100" required>
               </td>
               </tr>
               <tr class="content">
               <td>이름</td>
-              <td><input type="text" name="name" size="50"
-                  style="float:left; width: 33%; height:50px" placeholder="김미림" required>
+              <td><input id="name" type="text" name="name" size="50" placeholder="김미림" required>
               </td>
             </tr>
             <tr class="content">
               <td>나를 5글자로 표현한다면?</td>
-              <td><input type="text" name="five" size="50"
-                  style="float:left; width: 33%; height:50px">
+              <td><input id="fiveme" type="text" name="five" size="50">
               </td>
             </tr>
             <tr> 
@@ -54,7 +49,7 @@
             <tr class="content">
               <td>지원동기</td>
               <td colspan="2">
-                <textarea  id="test" name="content" onkeyup="len_chk()" style="width:92%; float:left;"
+                <textarea  id="test" name="content" onkeyup="len_chk()"
                   rows="6" placeholder="내용을 입력해주세요. (200자 이내)" required></textarea>
                   <div id="test_cnt">(0 / 200)</div>
               </td>
