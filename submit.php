@@ -30,10 +30,15 @@
               <td>학번</td>
               <td><input id="hakbun" type="text" name="student_id" size="50" placeholder="3100" required>
               </td>
-              </tr>
-              <tr class="content">
+            </tr>
+            <tr class="content">
               <td>이름</td>
               <td><input id="name" type="text" name="name" size="50" placeholder="김미림" required>
+              </td>
+            </tr>
+            <tr class="content">
+              <td>전화번호</td>
+              <td><input id="phone" type="text" name="phone" size="50" placeholder="01012345678" required>
               </td>
             </tr>
             <tr class="content">
