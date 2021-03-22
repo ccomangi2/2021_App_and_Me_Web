@@ -125,7 +125,7 @@ header span {
   
   header:after{display:inline-block; height:100%; content:""; vertical-align:middle;}
   header img {
-    height: 25%;
+    height: 30%;
     vertical-align:middle;
     margin-left: 10%;
     margin-right: 20%;
