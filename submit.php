@@ -24,7 +24,7 @@
   <div class="margin">
     <center>
       <div class="box">
-        <form class="login-form" action="qnaaction.php" method="post">
+        <form class="login-form" action="submitaction.php" method="post">
           <table width="95%" class="list-table">
             <tr class="content">
               <td>학번</td>
@@ -55,9 +55,10 @@
               </td>
             </tr>
           </table>
+          <input type="submit" class="apply" value="지원하기" onclick="location.href='submitaction.php'">
         </form>
       </div>
-      <input type="submit" class="apply" value="지원하기" onclick="location.href='submitaction.php'">
+      
     </center>
     <script language="javascript">
       //글자수 제한 체크 
