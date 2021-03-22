@@ -56,14 +56,14 @@ button{
 .margin{
   margin-top: 3%;
   margin-left: 20%;
-  margin-right: 24%;
-  clear: both;
+  margin-right: 20%;
 }
 
 .title{
   font-weight: 700;
   font-size: 2.5em;
   line-height: 22mm;
+  margin-bottom: 2%;
   font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -72,6 +72,7 @@ button{
   height: 3px;
   border-bottom: 0px;
   border-top: 0px;
+  margin-bottom: 5%;
   background-color: #FF6384;
 }
 
@@ -196,7 +197,7 @@ input[type=text], textarea:focus{
 
 /* mobile reactive web */
 @media all and (min-width:768px) and (max-width:1080px) {
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
   * {padding: 0px; margin: 0px;}
 
   html, body {
@@ -207,6 +208,7 @@ input[type=text], textarea:focus{
   }
 
   header {
+    width: 101.7%;
     height: 5%;
     background-color: white;
     box-shadow: 0px 0px 20px #D5D8E0;
@@ -227,169 +229,165 @@ input[type=text], textarea:focus{
     color: #393939;
   }
 
+
+
   button{
-    background-color: #ffffff;
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    padding-left: 3%;
-    padding-right: 3%;
-    border: 2px solid #afafaf;
+  background-color: #ffffff;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: 2px solid #afafaf;
 
-    font-weight: bold;
-    font-size: 11pt;
-    color: #393939;
-    letter-spacing: 0.25mm;
+  font-weight: bold;
+  font-size: 11pt;
+  color: #393939;
+  letter-spacing: 0.25mm;
 
-    position: relative;
-    top:30%; left:73%;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+  position: relative;
+  top:30%; left:73%;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  .list-table tbody td {
-    text-align: left;
-    /* border-bottom: 1px solid gray; */
-    height: 40px;
-  }
+.list-table tbody td {
+  text-align: left;
+  /* border-bottom: 1px solid gray; */
+  height: 40px;
+}
 
-  .margin{
-    margin: 0 auto;
-    margin-left: 5%;
-    margin-right: 10%;
-    margin-top: 10%;
-    clear: both;
-  }
+.margin{
+  margin: 0 auto;
+  margin-left: 15%;
+}
 
-  .title{
-    font-weight: 700;
-    font-size: 5em;
-    line-height: 22mm;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+.title{
+  margin-top: 10%;
+  margin-left: 2%;
+  font-weight: 700;
+  font-size: 4em;
+  line-height: 22mm;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  #title_hr {
-    width: 105%;
-    margin-top: 7%;
-    height: 4px;
-    border-bottom: 0px;
-    border-top: 0px;
-    background-color: #FF6384;
-  }
+#title_hr {
+  width: 81%;
+  height: 2px;
+  margin-left: 3%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-bottom: 0px;
+  border-top: 0px;
+  background-color: #FF6384;
+}
 
-  .apply {
-    width: 80%;
-    height: 130px;
-    font-size:3em;
-    font-weight: 700;
-    color: #230A3F;
-    border: solid 3.5px #230A3F;
-    border-radius: 100px;
-    padding-top: 3%;
-    padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+.apply {
+  width: 100%;
+  height: 100px;
+  font-size: 3em;
+  font-weight: 700;
+  color: #230A3F;
+  border: solid 3.5px #230A3F;
+  border-radius: 100px;
+  margin-top: 25%;
+  float: left;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  .box{
-    background-color: #ffffff;
-    width: 94%;
-    height: 1000px;
-    text-align: center;
-    box-align: center;
-    border-radius: 15px;
-    padding-top: 3%;
-    padding-bottom: 1%;
-    padding-left: 8%;
-    padding-right: 5%;
-    box-shadow: 6px 3px 50px 15px #dadada;
-  }
+.box{
+  background-color: #ffffff;
+  width: 70%;
+  height: 1300px;
+  float: left;
+  margin-left: 2%;
+  border-radius: 15px;
+  box-shadow: 6px 3px 50px 15px #dadada;
+}
 
-  .content{
-    color:#FF6E8C;
-    font-size: 2.5em;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+.content{
+  color:#FF6E8C;
+  font-weight: 700;
+  font-size: 2em;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  #hakbun {
-    float:left; width: 92%; height:90px; font-size: 0.8em; margin-left: 5%;
-  }
+#hakbun {
+  float:left; width: 85%; height:100px; font-size: 0.8em; margin-left: 8%;
+}
 
-  #name {
-    float:left; width: 92%; height:90px; font-size: 0.8em; margin-left: 5%;
-  }
+#name {
+  float:left; width: 85%; height:100px; font-size: 0.8em; margin-left: 8%;
+}
 
-  #fiveme {
-    float:left; width: 92%; height:180px; font-size: 0.8em; margin-left: 5%;
-  }
+#fiveme { 
+  float:left; width: 85%; height:100px; font-size: 0.8em; margin-left: 8%;
+}
 
-  #phone {
-    float:left; width: 92%; height:90px; font-size: 0.8em; margin-left: 5%;
-  }
+#phone {
+  float:left; width: 85%; height:100px; font-size: 0.8em; margin-left: 8%;
+}
 
-  #test {
-    width:92%; float:left; margin-right: 5%; font-size: 0.8em;  margin-left: 5%;
-  }
+#test {
+  width:85%; float:left; margin-right: 5%; height: 300px; font-size: 0.8em; margin-left: 8%;
+}
 
-  table {
-    border-collapse: separate;
-    border-spacing: 0 20px;
-  }
+table {
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
 
-  input,
-  textarea {
-    border-radius: 9px;
-    border: 1px solid gray;
-    padding-left: 15px;
-    font-size: 15px;
-    resize: none;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+input,
+textarea {
+  border-radius: 9px;
+  border: 1px solid gray;
+  padding-left: 15px;
+  font-size: 15px;
+  resize: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  textarea{
-    padding-top: 15px;
-    color:#494949;
-    
-    font-size: 13pt;
-    font-weight: 500;
-    border-radius : 10px;
-    border : 1.5px solid #929191;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+textarea{
+  padding-top: 15px;
+  color:#494949;
+  
+  font-size: 13pt;
+  font-weight: 500;
+  border-radius : 10px;
+  border : 1.5px solid #929191;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  textarea:hover{
-    font-size: 13pt;
-    font-weight: 500;
-    border-radius : 10px;
-    border : 1.5px solid #FF6E8C;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+textarea:hover{
+  font-size: 13pt;
+  font-weight: 500;
+  border-radius : 10px;
+  border : 1.5px solid #FF6E8C;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  input[type=text]
-  {
-    font-size: 13pt;
-    font-weight: 700;
-    border-radius : 10px;
-    border : 1.5px solid #929191;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+input[type=text]
+{
+  font-size: 13pt;
+  font-weight: 700;
+  border-radius : 10px;
+  border : 1.5px solid #929191;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  input[type=text]:hover
-  {
-    font-size: 13pt;
-    font-weight: 700;
-    border-radius : 10px;
-    border : 1.5px solid #FF6E8C;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+input[type=text]:hover
+{
+  font-size: 13pt;
+  font-weight: 700;
+  border-radius : 10px;
+  border : 1.5px solid #FF6E8C;
+  font-family: 'Noto Sans KR', sans-serif;
+}
 
-  input[type=text], textarea:focus{
-    outline: none;
-  }
+input[type=text], textarea:focus{
+  outline: none;
+}
 
-  #test_cnt{
-    position: relative;
-    left: 74%;
-  }
+#test_cnt{
+  position: relative;
+  left: 55%;
+}
 }
