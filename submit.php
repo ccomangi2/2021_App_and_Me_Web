@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="css/submit.css">
 </head>
 
-<body>
+<body style="overflow-x:hidden">
   <header>
     <img src="img/appandme_web_logo.png" alt="app&me" onclick="location.href='main.html'">
     <span onclick="location.href='about.html'">ABOUT</span>
