@@ -9,13 +9,13 @@
 </head>
 
 <body style="overflow-y:hidden">
-	<header>
+<header>
 		<img src="img/appandme_web_logo.png" alt="app&me" onclick="location.href='main.html'">
-		<span style="margin-left: 40%; color: #FF6384;" onclick="location.href='about.html'">ABOUT</span>
+		<span style="color: #FF6384;" onclick="location.href='about.html'">ABOUT</span>
 		<span style="margin-left: 1%;" onclick="location.href='members_8th.html'">부원소개</span>
 		<span style="margin-left: 1%;" onclick="location.href='submit.php'">지원하기</span>
 		<span style="margin-left: 1%;" onclick="location.href='qna.php'">Q&A</span>
-	</header>
+</header>
 	<div class="main">
 		<img src="img/appandme_web_background.png">
 	</div>
