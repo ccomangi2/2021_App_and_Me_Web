@@ -19,6 +19,7 @@ header img {
   height: 25%;
   vertical-align:middle;
   margin-left: 19.5%;
+  margin-right: 40%;
 }
 
 header span {
@@ -27,7 +28,6 @@ header span {
   font-weight: bold;
   color: #393939;
 }
-
 button{
   background-color: #ffffff;
   padding-top: 1.5%;
@@ -49,6 +49,8 @@ table {
   text-align: center;
   position: relative;
   border: none;
+  width: 50%;
+  border-collapse:collapse;
 }
 
 th{
@@ -70,6 +72,12 @@ td {
   padding: 10px;
 }
 
+hr {
+  width: 5%;
+  height: 1px;
+  background-color: #230A3F;
+}
+
 .box{
   width: 50%;
   text-align: center;
@@ -79,7 +87,7 @@ td {
 .margin{
   margin-top: 3%;
   margin-left: 20%;
-  margin-right: 24%;
+  margin-right: 20%;
 }
 
 .title{
@@ -99,7 +107,7 @@ td {
   border-bottom: 1px solid #f8b7c5;
 }
 
-span{
+tr span{
   color:#FF6384;
   font-size: 17pt;
   font-style: italic;
@@ -160,6 +168,9 @@ span{
     text-align: center;
     position: relative;
     border: none;
+    width: 70%;
+    border-collapse:collapse;
+    margin-top: 5%;
   }
 
   th{
@@ -181,8 +192,15 @@ span{
     padding: 10px;
   }
 
+  hr {
+    width: 20%;
+    height: 1px;
+    background-color: #230A3F;
+    margin-bottom: 10%;
+  }
+
   .box{
-    width: 50%;
+    width: 100%;
     text-align: center;
     position: relative;
   }
@@ -190,27 +208,30 @@ span{
   .margin{
     margin-top: 3%;
     margin-left: 20%;
-    margin-right: 24%;
+    margin-right: 20%;
   }
 
   .title{
+    margin-top: 30%;
+    margin-bottom: 20%;
     font-weight: 700;
-    font-size: 28pt;
+    font-size: 6em;
     line-height: 25mm;
   }
 
   .content{
     font-weight: 500;  
-    font-size: 15pt;
+    font-size: 2em;
     color: #494949;
     line-height: 10mm;
   }
 
   #line{
     border-bottom: 1px solid #f8b7c5;
+    font-size: 2.5em;
   }
 
-  span{
+  tr span{
     color:#FF6384;
     font-size: 17pt;
     font-style: italic;
